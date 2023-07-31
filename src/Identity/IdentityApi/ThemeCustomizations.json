@@ -1,0 +1,24 @@
+﻿{
+  "primaryMenus": {
+    "backgroundColor": "#0067AC",
+    "hoverAndActiveTextAndIconColor": "#4EABE1",
+    "siteLogo": "SMDefaultLogo.png",
+    "textAndIconColor": "#FFFFFF"
+  },
+  "secondaryMenus": {
+    "accentLineColor": "#E92828",
+    "backgroundColor": "#0067AC",
+    "hoverAndActiveTextAndIconColor": "#4EABE1",
+    "textAndIconColor": "#FFFFFF"
+  },
+  "favoriteDocks": {
+    "backgroundColor": "#0067AC",
+    "iconColor": "#FFFFFF"
+  },
+    "siteWides": {
+        "hoverAndActiveColor": "#DE466D",
+        "primaryAccentColor": "#0067AC",
+        "secondaryAccentColor": "#4eabe1"
+    }
+
+}

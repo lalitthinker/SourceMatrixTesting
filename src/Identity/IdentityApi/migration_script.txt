@@ -1,0 +1,40 @@
+﻿Identity API:
+=============
+
+Add
+====
+add-migration "InitialCreate2" -Context ApplicationDbContext -o Migrations/ApplicationDb
+
+Remove
+======
+remove-migration -Context ApplicationDbContext
+
+Update Databse
+==============
+update-database -Context ApplicationDbContext
+
+
+Add - ConfigurationDbContext
+====
+add-migration "InitialCreate" -Context ConfigurationDbContext -o Migrations/ConfigurationDb
+
+Remove
+======
+remove-migration -Context ConfigurationDbContext
+
+Update Databse
+==============
+update-database -Context ConfigurationDbContext
+
+
+Add - PersistedGrantDbContext
+====
+add-migration "InitialCreate" -Context PersistedGrantDbContext -o Migrations/PersistedGrantDb
+
+Remove
+======
+remove-migration -Context PersistedGrantDbContext
+
+Update Databse
+==============
+update-database -Context PersistedGrantDbContext
